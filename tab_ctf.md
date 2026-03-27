@@ -25,8 +25,8 @@ Multi User Juice Shop Platform to run separate Juice Shop instances for training
 
 ## CTF Extension
 
-[![GitHub release](https://img.shields.io/github/release/juice-shop/juice-shop-ctf.svg)](https://github.com/juice-shop/juice-shop-ctf/releases/latest)
-[![GitHub stars](https://img.shields.io/github/stars/juice-shop/juice-shop-ctf.svg?label=GitHub%20%E2%98%85&style=flat)](https://github.com/juice-shop/juice-shop-ctf)
+[![GitHub release](https://img.shields.io/github/release/juice-shop/juice-shop-ctf.svg?style=for-the-badge)](https://github.com/juice-shop/juice-shop-ctf/releases/latest)
+[![GitHub stars](https://img.shields.io/github/stars/juice-shop/juice-shop-ctf.svg?label=GitHub%20%E2%98%85&style=for-the-badge)](https://github.com/juice-shop/juice-shop-ctf)
 
 The Node package
 [`juice-shop-ctf-cli`](https://www.npmjs.com/package/juice-shop-ctf-cli)
@@ -36,7 +36,9 @@ events with the OWASP Juice Shop challenges for different popular CTF
 frameworks. This interactive utility allows you to populate a CTF game
 server in a matter of minutes.
 
+<div class="image-flex" markdown="1">
 ![Juice Shop CLI in Powershell](https://raw.githubusercontent.com/juice-shop/juice-shop-ctf/master/images/juice-shop-ctf-cli.png)
+</div>
 
 ### Supported CTF Frameworks
 

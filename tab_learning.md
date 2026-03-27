@@ -5,8 +5,6 @@ layout: default
 
 ## Official Companion Guide
 
-[![Write Goodreads Review](https://img.shields.io/badge/goodreads-write%20review-47129532.svg)](https://www.goodreads.com/review/edit/47129532)
-
 [Pwning OWASP Juice Shop](https://leanpub.com/juice-shop) is the
 official companion guide for this project. It will give you a complete
 overview of the vulnerabilities found in the application including hints

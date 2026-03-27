@@ -5,11 +5,10 @@ title: OWASP Juice Shop
 
 <!-- rebuild 2 -->
 
-[![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-48A646.svg)](/projects/#div-flagships)<!-- @IGNORE PREVIOUS: link -->
-[![GitHub release](https://img.shields.io/github/release/juice-shop/juice-shop.svg)](https://github.com/juice-shop/juice-shop/releases/latest)
-[![GitHub stars](https://img.shields.io/github/stars/juice-shop/juice-shop.svg?label=GitHub%20%E2%98%85&style=flat)](https://github.com/juice-shop/juice-shop/stargazers)
-[![Twitter Follow](https://img.shields.io/twitter/follow/owasp_juiceshop.svg?style=social&label=Follow)](https://twitter.com/owasp_juiceshop)
-[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/223/badge)](https://www.bestpractices.dev/projects/223) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](https://github.com/juice-shop/juice-shop/blob/master/CODE_OF_CONDUCT.md)
+[![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-48A646.svg?style=for-the-badge)](/projects/#div-flagships)<!-- @IGNORE PREVIOUS: link -->
+[![GitHub release](https://img.shields.io/github/release/juice-shop/juice-shop.svg?style=for-the-badge)](https://github.com/juice-shop/juice-shop/releases/latest)
+[![GitHub stars](https://img.shields.io/github/stars/juice-shop/juice-shop.svg?label=GitHub%20%E2%98%85&style=for-the-badge)](https://github.com/juice-shop/juice-shop/stargazers)
+[![OpenSSF Best Practices](https://img.shields.io/cii/summary/223?label=OpenSSF%20Best%20Practices&style=for-the-badge)](https://www.bestpractices.dev/projects/223) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg?style=for-the-badge)](https://github.com/juice-shop/juice-shop/blob/master/CODE_OF_CONDUCT.md)
 
 <div class="intro-container">
 <div class="intro-text" markdown="1">
@@ -68,8 +67,7 @@ the project name. That the initials "JS" match with those of
 
 ## Contributors
 
-[![GitHub contributors](https://img.shields.io/github/contributors/juice-shop/juice-shop.svg)](https://github.com/juice-shop/juice-shop/graphs/contributors)
-[![Crowdin](https://d322cqt584bo4o.cloudfront.net/owasp-juice-shop/localized.svg)](https://crowdin.com/project/owasp-juice-shop)
+[![GitHub contributors](https://img.shields.io/github/contributors/juice-shop/juice-shop.svg?style=for-the-badge)](https://github.com/juice-shop/juice-shop/graphs/contributors)
 
 The OWASP Juice Shop has been created by
 [Björn Kimminich](mailto:bjoern.kimminich@owasp.org) and is developed,
@@ -81,7 +79,7 @@ is found here.
 
 ## Licensing
 
-[![license](https://img.shields.io/github/license/juice-shop/juice-shop.svg)](https://github.com/juice-shop/juice-shop/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/juice-shop/juice-shop.svg?style=for-the-badge)](https://github.com/juice-shop/juice-shop/blob/master/LICENSE)
 
 This program is free software: You can redistribute it and/or modify it
 under the terms of the
