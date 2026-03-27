@@ -50,6 +50,29 @@ a:hover {
   filter: drop-shadow(0 0 5px var(--glow-color));
 }
 
+.owasp-logo-link {
+  position: absolute;
+  left: 1rem;
+  top: 0.8rem;
+}
+
+@media screen and (max-width: 85em) {
+  .owasp-logo-link {
+    display: none;
+  }
+}
+
+.owasp-header-logo {
+  height: 70px;
+  width: auto;
+  filter: drop-shadow(0 0 10px var(--glow-color));
+  transition: all 0.3s ease;
+}
+
+.owasp-header-logo:hover {
+  filter: drop-shadow(0 0 15px var(--glow-color));
+}
+
 .header-titles {
   text-align: left;
 }
