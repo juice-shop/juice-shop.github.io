@@ -182,8 +182,21 @@ code, pre {
   flex-wrap: wrap;
 }
 
-.image-grid img {
+.image-grid img,
+.image-flex img {
   margin: 0 !important;
+  border: 1px solid rgba(255, 45, 85, 0.3);
+  box-shadow: 0 0 10px var(--glow-color);
+  transition: all 0.3s ease;
+}
+
+.image-grid img:hover,
+.image-flex img:hover {
+  border-color: var(--border-color);
+  box-shadow: 0 0 20px var(--glow-color);
+}
+
+.image-grid img {
   max-width: calc(50% - 0.5rem);
   height: auto;
   display: block;
@@ -202,7 +215,6 @@ code, pre {
 
 .intro-container img.slideshow {
   flex: 6;
-  margin: 0 !important;
 }
 
 @media screen and (max-width: 64em) {
@@ -234,7 +246,6 @@ code, pre {
 }
 
 .image-flex img {
-  margin: 0 !important;
 }
 
 .supporters-container {

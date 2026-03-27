@@ -42,7 +42,7 @@ the project name. That the initials "JS" match with those of
 
 </div>
 
-<div>
+<div class="image-flex">
 <img src="https://raw.githubusercontent.com/juice-shop/juice-shop/master/screenshots/slideshow.gif" alt="Slideshow" class="slideshow">
 </div>
 

@@ -11,7 +11,9 @@ Multi User Juice Shop Platform to run separate Juice Shop instances for training
 
 ### Architecture
 
-<img src="https://juice-shop.github.io/juice-shop/assets/JuicyCTF_Architecture.svg" alt="MultiJuicer Architecture">
+<div class="image-flex">
+<img src="https://juice-shop.github.io/juice-shop/assets/JuicyCTF_Architecture.svg" alt="MultiJuicer Architecture" class="architecture-diagram">
+</div>
 
 ### Screenshots
 

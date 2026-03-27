@@ -53,7 +53,9 @@ layout: default
 
 ### Architecture
 
-<img src="https://raw.githubusercontent.com/juice-shop/pwning-juice-shop/master/docs/modules/ROOT/assets/images/introduction/architecture-diagram.png" alt="Architecture Diagram">
+<div class="image-flex">
+<img src="https://raw.githubusercontent.com/juice-shop/pwning-juice-shop/master/docs/modules/ROOT/assets/images/introduction/architecture-diagram.png" alt="Architecture Diagram" class="architecture-diagram">
+</div>
 
 ### Screenshots
 
