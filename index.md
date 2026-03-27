@@ -11,16 +11,15 @@ title: OWASP Juice Shop
 [![Twitter Follow](https://img.shields.io/twitter/follow/owasp_juiceshop.svg?style=social&label=Follow)](https://twitter.com/owasp_juiceshop)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/223/badge)](https://www.bestpractices.dev/projects/223) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](https://github.com/juice-shop/juice-shop/blob/master/CODE_OF_CONDUCT.md)
 
+<div class="intro-container">
+<div class="intro-text" markdown="1">
+
 OWASP Juice Shop is probably the most modern and sophisticated insecure
 web application! It can be used in security trainings, awareness demos,
 CTFs and as a guinea pig for security tools! Juice Shop encompasses
 vulnerabilities from the entire
 [OWASP Top Ten](/www-project-top-ten)<!-- @IGNORE PREVIOUS: link --> along with many other security
 flaws found in real-world applications!
-
-![Slideshow](https://raw.githubusercontent.com/juice-shop/juice-shop/master/screenshots/slideshow.gif)
-
-## Description
 
 Juice Shop is written in Node.js, Express and Angular. It was the first
 application written entirely in JavaScript listed in the
@@ -40,6 +39,14 @@ _Translating "dump" or "useless outfit" into German yields "Saftladen"
 which can be reverse-translated word by word into "juice shop". Hence
 the project name. That the initials "JS" match with those of
 "JavaScript" was purely coincidental!_
+
+</div>
+
+<div>
+<img src="https://raw.githubusercontent.com/juice-shop/juice-shop/master/screenshots/slideshow.gif" alt="Slideshow" class="slideshow">
+</div>
+
+</div>
 
 ## Testimonials
 

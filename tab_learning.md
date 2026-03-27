@@ -3,6 +3,28 @@ title: Learning
 layout: default
 ---
 
+## Official Companion Guide
+
+[![Write Goodreads Review](https://img.shields.io/badge/goodreads-write%20review-47129532.svg)](https://www.goodreads.com/review/edit/47129532)
+
+[Pwning OWASP Juice Shop](https://leanpub.com/juice-shop) is the
+official companion guide for this project. It will give you a complete
+overview of the vulnerabilities found in the application including hints
+how to spot and exploit them. In the appendix you will even find
+complete step-by-step solutions to every challenge.
+
+<div class="image-flex">
+  <a href="https://leanpub.com/juice-shop"><img alt="Pwning OWASP Juice Shop cover" src="https://raw.githubusercontent.com/juice-shop/pwning-juice-shop/master/docs/modules/ROOT/assets/images/cover.jpg" width="250"/></a>
+  <a href="https://leanpub.com/juice-shop"><img alt="Pwning OWASP Juice Shop back cover" src="https://raw.githubusercontent.com/juice-shop/pwning-juice-shop/master/docs/modules/ROOT/assets/images/introduction/back.jpg" width="250"/></a>
+</div>
+
+The ebook is published under
+[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+and is online-readable **for free** at
+<https://pwning.owasp-juice.shop>. The latest officially released
+edition is also available **for free** at
+<https://leanpub.com/juice-shop> in PDF, Kindle and ePub format.
+
 ## Hacking Instructor Tutorials
 
 {% assign tutorials = site.data.challenges | where_exp: "item", "item.tutorial != null" | sort: "tutorial.order" %}

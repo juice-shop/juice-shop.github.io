@@ -3,6 +3,24 @@ title: CTF
 layout: default
 ---
 
+## Official Multi User Platform
+
+[![MultiJuicer Logo](https://raw.githubusercontent.com/juice-shop/multi-juicer/master/images/multijuicer-with-text.png)](https://github.com/juice-shop/multi-juicer)
+
+Multi User Juice Shop Platform to run separate Juice Shop instances for training or CTF participants on a central Kubernetes cluster. [MultiJuicer](https://github.com/juice-shop/multi-juicer) comes with a built-in leader board and its own dedicated Juice Balancer for instance isolation. It even comes with a sophisticated world globe as a CTF leaderboard for the big screen or projector.
+
+### Architecture
+
+<img src="https://juice-shop.github.io/juice-shop/assets/JuicyCTF_Architecture.svg" alt="MultiJuicer Architecture">
+
+### Screenshots
+
+<div class="image-grid">
+  <img src="https://raw.githubusercontent.com/juice-shop/pwning-juice-shop/master/docs/modules/ROOT/assets/images/part4/multi-juicer_register.png" alt="Screenshot 1">
+  <img src="https://raw.githubusercontent.com/juice-shop/pwning-juice-shop/master/docs/modules/ROOT/assets/images/part4/multi-juicer_scoreboard.png" alt="Screenshot 2">
+  <img src="https://juice-shop.github.io/juice-shop/assets/multi-juicer-ctf-view.jpg" alt="Screenshot 3">
+</div>
+
 ## CTF Extension
 
 [![GitHub release](https://img.shields.io/github/release/juice-shop/juice-shop-ctf.svg)](https://github.com/juice-shop/juice-shop-ctf/releases/latest)

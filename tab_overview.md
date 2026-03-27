@@ -51,7 +51,11 @@ layout: default
   or
   [file import](https://pwning.owasp-juice.shop/companion-guide/latest/part4/integration.html#_challenge_declaration_file)
 
-## Screenshots
+### Architecture
+
+<img src="https://raw.githubusercontent.com/juice-shop/pwning-juice-shop/master/docs/modules/ROOT/assets/images/introduction/architecture-diagram.png" alt="Architecture Diagram">
+
+### Screenshots
 
 <div class="image-grid">
   <img src="https://raw.githubusercontent.com/juice-shop/juice-shop/master/screenshots/screenshot01.png" alt="Screenshot 1">
@@ -60,7 +64,3 @@ layout: default
   <img src="https://raw.githubusercontent.com/juice-shop/juice-shop/master/screenshots/screenshot04.png" alt="Screenshot 4">
   <img src="https://raw.githubusercontent.com/juice-shop/juice-shop/master/screenshots/screenshot05.png" alt="Screenshot 5">
 </div>
-
-## Application Architecture
-
-![Architecture diagram](https://raw.githubusercontent.com/juice-shop/pwning-juice-shop/master/docs/modules/ROOT/assets/images/introduction/architecture-diagram.png)

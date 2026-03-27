@@ -20,6 +20,22 @@ must have donated $1000 or more a) to OWASP while attributing it to
 Juice Shop or b) as a restricted gift to OWASP Juice Shop in the last 12
 months._</small></small>
 
+<div class="supporters-container" markdown="1">
+<div markdown="1">
+
+#### All Individual Supporters
+
+{% assign individual_supporter = site.data.ow_attributions | uniq %}
+{% for supporter in individual_supporter %}
+* {{ supporter | strip_html | strip_newlines | strip }}
+{% endfor %}
+* _You want to appear on this list?_
+  [Donate to OWASP here! 🤲](/donate?reponame=www-project-juice-shop&title=OWASP+Juice+Shop)<!-- @IGNORE PREVIOUS: link -->
+
+</div>
+
+<div markdown="1">
+
 #### All Corporate Supporters
 
 * [secuvera](https://www.secuvera.de/)<sup>(2018/2019/2023)</sup> <!-- >=1000€ @ 01.06.2023 -->
@@ -41,14 +57,8 @@ months._</small></small>
   31.07.2017 -->
 * [XING](https://corporate.xing.com/en/about-xing/security/)<sup>(2016)</sup> <!-- >=1000€ @ 26.09.2016 -->
 
-#### All Individual Supporters
-
-{% assign individual_supporter = site.data.ow_attributions | uniq %}
-{% for supporter in individual_supporter %}
-* {{ supporter | strip_html | strip_newlines | strip }}
-{% endfor %}
-* _You want to appear on this list?_
-  [Donate to OWASP here! 🤲](/donate?reponame=www-project-juice-shop&title=OWASP+Juice+Shop)<!-- @IGNORE PREVIOUS: link -->
+</div>
+</div>
 
 #### All Corporate-sponsored Code Contributions
 
