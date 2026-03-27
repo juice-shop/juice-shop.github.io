@@ -12,8 +12,8 @@ how to spot and exploit them. In the appendix you will even find
 complete step-by-step solutions to every challenge.
 
 <div class="image-flex">
-  <a href="https://leanpub.com/juice-shop"><img alt="Pwning OWASP Juice Shop cover" src="https://raw.githubusercontent.com/juice-shop/pwning-juice-shop/master/docs/modules/ROOT/assets/images/cover.jpg" width="250"/></a>
-  <a href="https://leanpub.com/juice-shop"><img alt="Pwning OWASP Juice Shop back cover" src="https://raw.githubusercontent.com/juice-shop/pwning-juice-shop/master/docs/modules/ROOT/assets/images/introduction/back.jpg" width="250"/></a>
+  <a href="https://leanpub.com/juice-shop"><img alt="Pwning OWASP Juice Shop cover" src="https://raw.githubusercontent.com/juice-shop/pwning-juice-shop/master/docs/modules/ROOT/assets/images/cover.jpg" style="max-width: 300px"/></a>
+  <a href="https://leanpub.com/juice-shop"><img alt="Pwning OWASP Juice Shop back cover" src="https://raw.githubusercontent.com/juice-shop/pwning-juice-shop/master/docs/modules/ROOT/assets/images/introduction/back.jpg" style="max-width: 300px"/></a>
 </div>
 
 The ebook is published under

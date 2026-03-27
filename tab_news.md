@@ -47,7 +47,7 @@ The following challenges are planned for release with the next version of OWASP 
     {% capture row %}
     <tr>
       <td>{% if is_new_hacking %}<i class="fas fa-certificate" style="color: var(--accent-color);"></i> {% endif %}{{ dev_ch.name }}</td>
-      <td style="text-align: center;">
+      <td class="col-category" style="text-align: center;">
         {% unless prod_categories contains dev_ch.category %}<i class="fas fa-certificate" style="color: var(--accent-color);"></i> {% endunless %}{{ dev_ch.category }}
       </td>
       <td style="text-align: center;">
@@ -58,7 +58,7 @@ The following challenges are planned for release with the next version of OWASP 
           {% if is_new_hacking != true and is_new_coding %}<i class="fas fa-certificate" style="color: var(--accent-color);"></i> {% endif %}<i class="fas fa-check"></i>
         {% endif %}
       </td>
-      <td style="text-align: center;">
+      <td class="col-tags" style="text-align: center;">
         {% assign tags_with_new_icon = "" | split: "," %}
         {% for tag in dev_ch.tags %}
           {% assign tag_to_display = tag %}
@@ -80,10 +80,10 @@ The following challenges are planned for release with the next version of OWASP 
   <thead>
     <tr>
       <th>Challenge</th>
-      <th style="text-align: center;">Category</th>
+      <th class="col-category" style="text-align: center;">Category</th>
       <th style="text-align: center;">Difficulty</th>
       <th style="text-align: center;">Coding Challenge</th>
-      <th style="text-align: center;">Tags</th>
+      <th class="col-tags" style="text-align: center;">Tags</th>
     </tr>
   </thead>
   <tbody>

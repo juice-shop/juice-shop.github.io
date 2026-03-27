@@ -93,6 +93,19 @@ a:hover {
   font-size: 1rem;
 }
 
+@media screen and (max-width: 48em) {
+  .project-tagline {
+    display: none;
+  }
+  .col-category,
+  .col-tags {
+    display: none;
+  }
+  .main-content iframe {
+    width: 100% !important;
+  }
+}
+
 .header-nav {
   margin-top: 0.5rem;
 }
@@ -106,6 +119,12 @@ a:hover {
   display: inline-block;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+@media screen and (max-width: 48em) {
+  .btn span {
+    display: none;
+  }
 }
 
 .btn:hover {
@@ -213,15 +232,15 @@ code, pre {
   flex: 4;
 }
 
-.intro-container img.slideshow {
+.intro-container .image-flex {
   flex: 6;
 }
 
-@media screen and (max-width: 64em) {
+@media screen and (max-width: 85em) {
   .intro-container {
     flex-direction: column;
   }
-  .intro-container img.slideshow {
+  .intro-container .image-flex img {
     max-width: 100% !important;
   }
 }
@@ -236,6 +255,7 @@ code, pre {
   display: flex;
   gap: 1.5rem;
   flex-wrap: wrap;
+  align-items: flex-start;
   margin: 1.5rem 0;
 }
 
@@ -246,6 +266,11 @@ code, pre {
 }
 
 .image-flex img {
+  max-width: min(800px, 100%);
+  width: auto;
+  height: auto;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 0 10px var(--glow-color);
 }
 
 .supporters-container {
