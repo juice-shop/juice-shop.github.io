@@ -49,8 +49,8 @@ site.data.challenges.size | minus: tutorials.size }} challenges.
     <td><a href="https://demo.owasp-juice.shop/#/hacking-instructor?challenge={{ tutorial.name }}" target="_blank">{{ tutorial.name }}</a></td>
     <td class="col-category">{{ tutorial.category }}</td>
     <td>
-    {% assign difficulty = tutorial.difficulty | to_integer %}
-    {% for i in (1..difficulty) %}⭐{% endfor %}
+    {% assign difficulty = tutorial.difficulty | plus: 0 %}
+    {% for i in (1..difficulty) %}<i class="fas fa-star"></i>{% endfor %}
     </td>
   </tr>
   {% endfor %}
