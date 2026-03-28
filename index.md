@@ -22,7 +22,7 @@ flaws found in real-world applications!
 
 Juice Shop is written in Node.js, Express and Angular. It was the first
 application written entirely in JavaScript listed in the
-[OWASP VWA Directory](/www-project-vulnerable-web-applications-directory)<!-- @IGNORE PREVIOUS: link -->.
+[OWASP VWA Directory](https://vwad.owasp.org)<!-- @IGNORE PREVIOUS: link -->.
 
 The application contains a vast number of hacking challenges of varying
 difficulty where the user is supposed to exploit the underlying
