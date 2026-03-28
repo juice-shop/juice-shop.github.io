@@ -91,12 +91,27 @@ a:hover {
   opacity: 0.8;
   margin: 0;
   font-size: 1rem;
+  white-space: nowrap;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 80em) {
+  .btn span {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 64em) {
   .project-tagline {
     display: none;
   }
+  .btn {
+    padding: 0.4rem 0.6rem;
+    margin: 2px;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 48em) {
   .col-category,
   .col-tags {
     display: none;
@@ -108,6 +123,12 @@ a:hover {
 
 .header-nav {
   margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .btn {
@@ -119,11 +140,16 @@ a:hover {
   display: inline-block;
   text-transform: uppercase;
   font-weight: bold;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
-@media screen and (max-width: 48em) {
-  .btn span {
-    display: none;
+
+@media screen and (max-width: 32em) {
+  .btn {
+    padding: 0.3rem 0.4rem;
+    margin: 1px;
+    font-size: 0.8rem;
   }
 }
 
