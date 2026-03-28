@@ -45,27 +45,24 @@ The following challenges are planned for release with the next version of OWASP 
 
   {% if is_new_hacking or is_new_coding %}
     {% capture row %}
-    <tr>
+    <tr style="display: table-row;">
       <td>{% if is_new_hacking %}<i class="fas fa-certificate" style="color: var(--accent-color);"></i> {% endif %}{{ dev_ch.name }}</td>
-      <td class="col-category" style="text-align: center;">
+      <td class="col-category">
         {% unless prod_categories contains dev_ch.category %}<i class="fas fa-certificate" style="color: var(--accent-color);"></i> {% endunless %}{{ dev_ch.category }}
       </td>
-      <td style="text-align: center;">
+      <td class="col-count">
         {% for i in (1..dev_ch.difficulty) %}<i class="fas fa-star"></i>{% endfor %}
       </td>
-      <td style="text-align: center;">
+      <td class="col-count">
         {% if dev_snippets contains dev_ch.key %}
           {% if is_new_hacking != true and is_new_coding %}<i class="fas fa-certificate" style="color: var(--accent-color);"></i> {% endif %}<i class="fas fa-check"></i>
         {% endif %}
       </td>
-      <td class="col-tags" style="text-align: center;">
+      <td>
         {% assign tags_with_new_icon = "" | split: "," %}
         {% for tag in dev_ch.tags %}
-          {% assign tag_to_display = tag %}
-          {% unless prod_tags contains tag %}
-            {% capture tag_to_display %}<i class="fas fa-certificate" style="color: var(--accent-color);"></i> {{ tag }}{% endcapture %}
-          {% endunless %}
-          {% assign tags_with_new_icon = tags_with_new_icon | push: tag_to_display %}
+        {% capture tag_to_display %}{% unless prod_tags contains tag %}<i class="fas fa-certificate" style="color: var(--accent-color);"></i> {% endunless %}{{ tag }}{% endcapture %}
+        {% assign tags_with_new_icon = tags_with_new_icon | push: tag_to_display %}
         {% endfor %}
         {{ tags_with_new_icon | join: ", " }}
       </td>
@@ -80,10 +77,10 @@ The following challenges are planned for release with the next version of OWASP 
   <thead>
     <tr>
       <th>Challenge</th>
-      <th class="col-category" style="text-align: center;">Category</th>
-      <th style="text-align: center;">Difficulty</th>
-      <th style="text-align: center;">Coding Challenge</th>
-      <th class="col-tags" style="text-align: center;">Tags</th>
+      <th class="col-category">Category</th>
+      <th class="col-count">Difficulty</th>
+      <th class="col-count">Coding Challenge</th>
+      <th>Tags</th>
     </tr>
   </thead>
   <tbody>

@@ -41,23 +41,23 @@ site.data.challenges.size | minus: tutorials.size }} challenges.
 <table>
   <tr>
     <th>Challenge</th>
-    <th>Category</th>
+    <th class="col-category">Category</th>
     <th>Difficulty</th>
   </tr>
   {% for tutorial in tutorials %}
   <tr>
-    <td style="min-width: 190px"><a href="https://demo.owasp-juice.shop/#/hacking-instructor?challenge={{ tutorial.name }}" target="_blank">{{ tutorial.name }}</a></td>
-    <td style="min-width: 190px">{{ tutorial.category }}</td>
-    <td style="min-width: 100px">
+    <td><a href="https://demo.owasp-juice.shop/#/hacking-instructor?challenge={{ tutorial.name }}" target="_blank">{{ tutorial.name }}</a></td>
+    <td class="col-category">{{ tutorial.category }}</td>
+    <td>
     {% assign difficulty = tutorial.difficulty | to_integer %}
     {% for i in (1..difficulty) %}⭐{% endfor %}
     </td>
   </tr>
   {% endfor %}
   <tr>
-    <td style="min-width: 190px"><a href="https://demo.owasp-juice.shop/#/hacking-instructor?challenge=Coding%20Challenges" target="_blank">Coding Challenges</a></td>
-    <td style="min-width: 190px">n/a</td>
-    <td style="min-width: 100px">n/a</td>
+    <td><a href="https://demo.owasp-juice.shop/#/hacking-instructor?challenge=Coding%20Challenges" target="_blank">Coding Challenges</a></td>
+    <td class="col-category">n/a</td>
+    <td>n/a</td>
   </tr>
 </table>
 
@@ -73,14 +73,14 @@ coding challenge:
 
 <table>
   <tr>
-    <th>Category</th>
-    <th>#</th>
+    <th class="col-category">Category</th>
+    <th class="col-count">#</th>
     <th>Challenges</th>
   </tr>
   {% for category in categories %}
   <tr>
-    <td style="min-width: 190px">{{ category.name }}</td>
-    <td style="min-width: 60px">{{ category.items.size }}</td>
+    <td class="col-category">{{ category.name }}</td>
+    <td class="col-count">{{ category.items.size }}</td>
     <td><small>{{ category.items | group_by:"name" | sort: "name" | map: "name" | join: ", " }}</small></td>
   </tr>
   {% endfor %}

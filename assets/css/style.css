@@ -337,6 +337,35 @@ code, pre {
   border: 1px solid rgba(255, 45, 85, 0.3); /* Subtle neon grid */
   padding: 0.8rem;
   text-align: left;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.col-count {
+  width: 1%;
+  white-space: nowrap;
+  text-align: center !important;
+}
+
+.col-count i {
+  white-space: nowrap;
+}
+
+.col-category {
+  max-width: 150px;
+  white-space: normal;
+  word-break: break-word;
+}
+
+@media screen and (max-width: 48em) {
+  .main-content th,
+  .main-content td {
+    padding: 0.4rem;
+    font-size: 0.9rem;
+  }
+  .col-category {
+    max-width: 100px;
+  }
 }
 
 .main-content th {

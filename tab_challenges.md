@@ -20,14 +20,14 @@ or MITRE's
 
 <table>
   <tr>
-    <th>Category</th>
-    <th>#</th>
+    <th class="col-category">Category</th>
+    <th class="col-count">#</th>
     <th>Challenges</th>
   </tr>
   {% for category in categories %}
   <tr>
-    <td style="min-width: 190px">{{ category.name }}</td>
-    <td style="min-width: 60px">{{ category.items.size }}</td>
+    <td class="col-category">{{ category.name }}</td>
+    <td class="col-count">{{ category.items.size }}</td>
     <td><small>{{ category.items | group_by:"name" | sort: "name" | map: "name" | join: ", " }}</small></td>
   </tr>
   {% endfor %}
@@ -48,16 +48,16 @@ that probably need some scripting/automation etc.
 
 <table>
   <tr>
-    <th>Tag</th>
-    <th>#</th>
+    <th class="col-category">Tag</th>
+    <th class="col-count">#</th>
     <th>Challenges</th>
   </tr>
   {% for tag in tags %}
   {% unless tag == "" or tag == nil %}
   {% assign taggedChallenges = site.data.challenges | group_by: "tags" | where_exp:"item", "item.name contains tag" | map: "items" | map: "name" %}
   <tr>
-    <td style="min-width: 190px">{{ tag }}</td>
-    <td style="min-width: 60px">
+    <td class="col-category">{{ tag }}</td>
+    <td class="col-count">
       {{ taggedChallenges.size }}
     </td>
     <td><small>
