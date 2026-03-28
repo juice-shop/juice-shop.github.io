@@ -298,11 +298,14 @@ code, pre {
   color: #666;
 }
 
-/* Tables */
+/* Tables - responsive: horizontal scroll on small screens */
 .main-content table {
   width: 100%;
   border-collapse: collapse;
   margin: 1.5rem 0;
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   background-color: rgba(255, 45, 85, 0.05); /* Very subtle pink tint */
 }
 
