@@ -159,6 +159,17 @@ a:hover {
   box-shadow: 0 0 10px var(--glow-color);
 }
 
+.btn-active {
+  border-color: var(--accent-color);
+  color: var(--accent-color) !important;
+  box-shadow: 0 0 15px var(--accent-color);
+}
+
+.btn-active:hover {
+  background: var(--accent-color);
+  color: var(--bg-color) !important;
+}
+
 .main-content {
   background-color: var(--bg-color);
   color: var(--text-color);
