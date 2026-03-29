@@ -47,7 +47,14 @@ a:hover {
 .header-logo {
   height: 60px;
   width: auto;
-  filter: drop-shadow(0 0 5px var(--glow-color));
+  filter: drop-shadow(0 0 5px var(--glow-color))
+          drop-shadow(0 0 10px var(--glow-color));
+  transition: filter 0.3s ease;
+}
+
+.header-logo:hover {
+  filter: drop-shadow(0 0 10px var(--glow-color))
+          drop-shadow(0 0 20px var(--glow-color));
 }
 
 .owasp-logo-link {
@@ -65,12 +72,14 @@ a:hover {
 .owasp-header-logo {
   height: 70px;
   width: auto;
-  filter: drop-shadow(0 0 10px var(--glow-color));
-  transition: all 0.3s ease;
+  filter: drop-shadow(0 0 5px var(--glow-color))
+          drop-shadow(0 0 10px var(--glow-color));
+  transition: filter 0.3s ease;
 }
 
 .owasp-header-logo:hover {
-  filter: drop-shadow(0 0 15px var(--glow-color));
+  filter: drop-shadow(0 0 10px var(--glow-color))
+          drop-shadow(0 0 20px var(--glow-color));
 }
 
 .header-titles {
