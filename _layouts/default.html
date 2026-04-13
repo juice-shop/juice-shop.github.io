@@ -54,6 +54,16 @@
         max-width: 100%;
         height: auto;
       }
+      .social-widget {
+        margin-top: 2rem;
+        border: 1px solid var(--border-color, #ff2d55);
+        padding: 0.5rem;
+        background: #000;
+      }
+      .timeline-container {
+        height: 500px;
+        overflow-y: auto;
+      }
     </style>
     <header class="page-header" role="banner">
       <a href="https://owasp.org/" target="_blank" class="owasp-logo-link">
@@ -104,7 +114,15 @@
           {% capture leaders_content %}{% include_relative leaders.md %}{% endcapture %}
           {{ leaders_content | split: '---' | last | markdownify }}
         </section>
+
+        <section class="social-widget">
+          <div id="bluesky-timeline" class="timeline-container">
+            <bsky-embed username="owasp-juice.shop" limit="5" mode="dark"></bsky-embed>
+          </div>
+        </section>
       </aside>
     </div>
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
   </body>
 </html>
