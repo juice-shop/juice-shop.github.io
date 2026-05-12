@@ -7,3 +7,4 @@ env
 Gemfile.lock
 _site/
 .ruby-version
+.junie/

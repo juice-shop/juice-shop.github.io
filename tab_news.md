@@ -3,10 +3,6 @@ title: News
 layout: default
 ---
 
-## Upcoming Challenges
-
-The following challenges are planned for release with the next version of OWASP Juice Shop.
-
 {% assign dev_challenges = site.data.challenges_dev %}
 {% assign prod_challenges = site.data.challenges %}
 {% assign dev_snippets = site.data.snippets_dev.challenges %}
@@ -73,6 +69,10 @@ The following challenges are planned for release with the next version of OWASP 
 {% endfor %}
 
 {% if upcoming_challenges.size > 0 %}
+## Upcoming Challenges
+
+The following challenges are planned for release with the next version of OWASP Juice Shop.
+
 <table>
   <thead>
     <tr>
