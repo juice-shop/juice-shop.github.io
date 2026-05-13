@@ -105,6 +105,18 @@ The following challenges are planned for release with the next version of OWASP 
 * 2026-03-07T10:16:27Z: juice-shop [`v19.2.0`](https://github.com/juice-shop/juice-shop/releases/tag/v19.2.0)
 * 2025-11-16T14:47:08Z: juice-shop [`v19.1.1`](https://github.com/juice-shop/juice-shop/releases/tag/v19.1.1)
 
+### MultiJuicer
+
+[![GitHub release](https://img.shields.io/github/release/juice-shop/multi-juicer.svg?style=for-the-badge)](https://github.com/juice-shop/juice-shop-ctf/releases/latest)
+
+<!-- next:multi-juicer -->
+* 2026-05-13T07:41:45Z: multi-juicer [`v10.0.0`](https://github.com/juice-shop/multi-juicer/releases/tag/v10.0.0)
+* 2026-05-10T20:07:53Z: multi-juicer [`v10.0.0-rc.2`](https://github.com/juice-shop/multi-juicer/releases/tag/v10.0.0-rc.2)
+* 2026-05-08T18:26:19Z: multi-juicer [`v10.0.0-rc.1`](https://github.com/juice-shop/multi-juicer/releases/tag/v10.0.0-rc.1) 
+* 2026-02-12T19:50:54Z: multi-juicer [`v9.2.0`](https://github.com/juice-shop/multi-juicer/releases/tag/v9.2.0)
+* 2026-01-25T21:15:53Z: multi-juicer [`v9.1.0`](https://github.com/juice-shop/multi-juicer/releases/tag/v9.1.0)
+* 2025-11-22T17:39:28Z: multi-juicer [`v9.0.0`](https://github.com/juice-shop/multi-juicer/releases/tag/v9.0.0)
+
 ### CTF Extension
 
 [![GitHub release](https://img.shields.io/github/release/juice-shop/juice-shop-ctf.svg?style=for-the-badge)](https://github.com/juice-shop/juice-shop-ctf/releases/latest)
@@ -116,15 +128,6 @@ The following challenges are planned for release with the next version of OWASP 
 * 2025-09-04T06:11:47Z: juice-shop-ctf [`v12.0.0`](https://github.com/juice-shop/juice-shop-ctf/releases/tag/v12.0.0)
 * 2025-02-18T11:19:13Z: juice-shop-ctf [`v11.1.0`](https://github.com/juice-shop/juice-shop-ctf/releases/tag/v11.1.0)
 * 2024-10-25T14:30:28Z: juice-shop-ctf [`v11.0.0`](https://github.com/juice-shop/juice-shop-ctf/releases/tag/v11.0.0)
-
-### MultiJuicer
-
-[![GitHub release](https://img.shields.io/github/release/juice-shop/multi-juicer.svg?style=for-the-badge)](https://github.com/juice-shop/juice-shop-ctf/releases/latest)
-
-<!-- next:multi-juicer -->
-* 2026-02-12T19:50:54Z: multi-juicer [`v9.2.0`](https://github.com/juice-shop/multi-juicer/releases/tag/v9.2.0)
-* 2026-01-25T21:15:53Z: multi-juicer [`v9.1.0`](https://github.com/juice-shop/multi-juicer/releases/tag/v9.1.0)
-* 2025-11-22T17:39:28Z: multi-juicer [`v9.0.0`](https://github.com/juice-shop/multi-juicer/releases/tag/v9.0.0)
 
 ## Roadmap
 
