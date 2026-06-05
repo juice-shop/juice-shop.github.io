@@ -7,9 +7,8 @@ layout: default
 
 > You can attribute your donation to the OWASP Juice Shop project by
 > using
-> [this link](/donate?reponame=www-project-juice-shop&title=OWASP+Juice+Shop)<!-- @IGNORE PREVIOUS: link -->
-> or the green "Donate"-button while on any tab of the Juice Shop
-> project page!
+> [this link](https://owasp.org/donate?reponame=www-project-juice-shop&title=OWASP+Juice+Shop)<!-- @IGNORE PREVIOUS: link -->
+> when donating to the OWASP Foundation!
 
 ### Top Supporters
 

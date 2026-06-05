@@ -213,6 +213,18 @@ a:hover {
   justify-content: flex-start;
 }
 
+/* Glow effect for the "Your Logo Could Be Here" placeholder on the supporters page */
+.main-content img[src*="yourlogo_logo"] {
+  filter: drop-shadow(0 0 5px var(--glow-color))
+          drop-shadow(0 0 10px var(--glow-color));
+  transition: filter 0.3s ease;
+}
+
+.main-content img[src*="yourlogo_logo"]:hover {
+  filter: drop-shadow(0 0 10px var(--glow-color))
+          drop-shadow(0 0 20px var(--glow-color));
+}
+
 .sidebar {
   background-color: #0a0a0a !important;
   border-left: 2px solid var(--border-color) !important;
