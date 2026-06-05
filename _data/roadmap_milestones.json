@@ -1,4 +1,4 @@
 [
   "Gradually enhance the codebase and pay back <a href='https://qlty.sh/gh/juice-shop/projects/juice-shop' target='_blank'>accumulated technical debt</a>",
-  "Eventually bring <a href='https://coveralls.io/github/juice-shop/juice-shop' target='_blank'>overall test coverage</a> back over 90%"
+  "Push <a href='https://coveralls.io/github/juice-shop/juice-shop' target='_blank'>overall test coverage</a> to asymptotically approach 90% again"
 ]
