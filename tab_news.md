@@ -111,6 +111,7 @@ The following challenges are planned for release with the next version of OWASP 
 [![GitHub release](https://img.shields.io/github/release/juice-shop/multi-juicer.svg?style=for-the-badge)](https://github.com/juice-shop/multi-juicer/releases/latest)
 
 <!-- next:multi-juicer -->
+* 2026-06-23T19:46:15Z: multi-juicer [`v10.2.0`](https://github.com/juice-shop/multi-juicer/releases/tag/v10.2.0)
 * 2026-06-23T19:39:45Z: multi-juicer [`v10.2.0`](https://github.com/juice-shop/multi-juicer/releases/tag/v10.2.0)
 * 2026-06-03T16:46:24Z: multi-juicer [`v10.1.0`](https://github.com/juice-shop/multi-juicer/releases/tag/v10.1.0)
 * 2026-05-21T17:16:34Z: multi-juicer [`v10.0.1`](https://github.com/juice-shop/multi-juicer/releases/tag/v10.0.1)
