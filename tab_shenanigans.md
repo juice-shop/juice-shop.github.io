@@ -25,3 +25,8 @@ written and performed by
 ## Shake Logger
 
 The <https://github.com/juice-shop/shake-logger> demo shows the dangers of XSS holes combined with bad Content Security Policy using Harlem Shake and a Keylogger against the Juice Shop ([📺YouTube](https://youtu.be/Msi52Kicb-w)).
+
+<div class="image-flex">
+  <img src="https://raw.githubusercontent.com/juice-shop/shake-logger/master/screenshots/shaking-juiceshop.gif" alt="Screenshot 1">
+  <img src="https://raw.githubusercontent.com/juice-shop/shake-logger/master/screenshots/logger-php.jpg" alt="Screenshot 1">
+</div>
