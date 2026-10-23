@@ -56,6 +56,7 @@ that probably need some scripting/automation etc.
   </tr>
   {% for tag in group[1] %}
   {% assign taggedChallenges = site.data.challenges | group_by: "tags" | where_exp:"item", "item.name contains tag" | map: "items" | map: "name" %}
+  {% if taggedChallenges.size > 0 %}
   <tr>
     <td class="col-category">{{ tag }}</td>
     <td class="col-count">
@@ -65,6 +66,7 @@ that probably need some scripting/automation etc.
       {{ taggedChallenges | sort | join: ", " }}
     </small></td>
   </tr>
+  {% endif %}
   {% endfor %}
   {% endfor %}
 </table>
