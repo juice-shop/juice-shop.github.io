@@ -39,8 +39,6 @@ or MITRE's
 
 ## Challenge Tags
 
-{% assign tags = site.data.challenges | map: "tags" | uniq | join: "," | replace: ",,", "," | split: "," | sort  %}
-
 Tags do not represent vulnerability categories but serve as additional
 meta information for challenges. They mark certain commonalities or
 special types of challenges - like those lacking seriousness or ones
@@ -52,8 +50,11 @@ that probably need some scripting/automation etc.
     <th class="col-count">#</th>
     <th>Challenges</th>
   </tr>
-  {% for tag in tags %}
-  {% unless tag == "" or tag == nil %}
+  {% for group in site.data.tags %}
+  <tr>
+    <th colspan="3">{{ group[0] }}</th>
+  </tr>
+  {% for tag in group[1] %}
   {% assign taggedChallenges = site.data.challenges | group_by: "tags" | where_exp:"item", "item.name contains tag" | map: "items" | map: "name" %}
   <tr>
     <td class="col-category">{{ tag }}</td>
@@ -64,7 +65,7 @@ that probably need some scripting/automation etc.
       {{ taggedChallenges | sort | join: ", " }}
     </small></td>
   </tr>
-  {% endunless %}
+  {% endfor %}
   {% endfor %}
 </table>
 
