@@ -100,14 +100,12 @@ The following challenges are planned for release with the next version of OWASP 
 [![Docker Pulls](https://img.shields.io/docker/pulls/bkimminich/juice-shop.svg?style=for-the-badge)](https://hub.docker.com/r/bkimminich/juice-shop)
 
 <!-- next:juice-shop -->
+* 2026-11-08T00:00:00Z: juice-shop [`v20.4.0`](https://github.com/juice-shop/juice-shop/releases/tag/v20.4.0)
 * 2026-10-11T22:48:38Z: juice-shop [`v20.3.0`](https://github.com/juice-shop/juice-shop/releases/tag/v20.3.0)
 * 2026-08-10T21:58:43Z: juice-shop [`v20.2.0`](https://github.com/juice-shop/juice-shop/releases/tag/v20.2.0)
 * 2026-06-23T23:08:27Z: juice-shop [`v20.1.1`](https://github.com/juice-shop/juice-shop/releases/tag/v20.1.1)
 * 2026-06-23T17:13:42Z: juice-shop [`v20.1.0`](https://github.com/juice-shop/juice-shop/releases/tag/v20.1.0)
 * 2026-05-12T21:21:01Z: juice-shop [`v20.0.0`](https://github.com/juice-shop/juice-shop/releases/tag/v20.0.0)
-* 2026-03-07T12:17:04Z: juice-shop [`v19.2.1`](https://github.com/juice-shop/juice-shop/releases/tag/v19.2.1)
-* 2026-03-07T10:16:27Z: juice-shop [`v19.2.0`](https://github.com/juice-shop/juice-shop/releases/tag/v19.2.0)
-* 2025-11-16T14:47:08Z: juice-shop [`v19.1.1`](https://github.com/juice-shop/juice-shop/releases/tag/v19.1.1)
 
 ### MultiJuicer
 
@@ -122,11 +120,6 @@ The following challenges are planned for release with the next version of OWASP 
 * 2026-06-03T16:46:24Z: multi-juicer [`v10.1.0`](https://github.com/juice-shop/multi-juicer/releases/tag/v10.1.0)
 * 2026-05-21T17:16:34Z: multi-juicer [`v10.0.1`](https://github.com/juice-shop/multi-juicer/releases/tag/v10.0.1)
 * 2026-05-13T07:41:45Z: multi-juicer [`v10.0.0`](https://github.com/juice-shop/multi-juicer/releases/tag/v10.0.0)
-* 2026-05-10T20:07:53Z: multi-juicer [`v10.0.0-rc.2`](https://github.com/juice-shop/multi-juicer/releases/tag/v10.0.0-rc.2)
-* 2026-05-08T18:26:19Z: multi-juicer [`v10.0.0-rc.1`](https://github.com/juice-shop/multi-juicer/releases/tag/v10.0.0-rc.1) 
-* 2026-02-12T19:50:54Z: multi-juicer [`v9.2.0`](https://github.com/juice-shop/multi-juicer/releases/tag/v9.2.0)
-* 2026-01-25T21:15:53Z: multi-juicer [`v9.1.0`](https://github.com/juice-shop/multi-juicer/releases/tag/v9.1.0)
-* 2025-11-22T17:39:28Z: multi-juicer [`v9.0.0`](https://github.com/juice-shop/multi-juicer/releases/tag/v9.0.0)
 
 ### CTF Extension
 
@@ -137,8 +130,6 @@ The following challenges are planned for release with the next version of OWASP 
 
 <!-- next:juice-shop-ctf -->
 * 2025-09-04T06:11:47Z: juice-shop-ctf [`v12.0.0`](https://github.com/juice-shop/juice-shop-ctf/releases/tag/v12.0.0)
-* 2025-02-18T11:19:13Z: juice-shop-ctf [`v11.1.0`](https://github.com/juice-shop/juice-shop-ctf/releases/tag/v11.1.0)
-* 2024-10-25T14:30:28Z: juice-shop-ctf [`v11.0.0`](https://github.com/juice-shop/juice-shop-ctf/releases/tag/v11.0.0)
 
 ## Roadmap
 
